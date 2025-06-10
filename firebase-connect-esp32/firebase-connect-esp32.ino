@@ -77,8 +77,8 @@ void setup() {
   config.database_url = DATABASE_URL;
   config.token_status_callback = tokenStatusCallback;
 
-  auth.user.email = "ks2005755@gmail.com";     // Optional: For authenticated access
-  auth.user.password = "20020307";
+  auth.user.email = "sampleEmail@gmail.com";     // Optional: For authenticated access
+  auth.user.password = "emailPassword";
 
   Firebase.begin(&config, &auth);
   Firebase.reconnectWiFi(true);
